@@ -14,6 +14,15 @@ import sixthImg2 from "./assets/images/sixth-item2.png";
 import sixthImg3 from "./assets/images/sixth-item3.png";
 import sixthImg4 from "./assets/images/sixth-item4.png";
 import sixthImg5 from "./assets/images/sixth-item5.png";
+import seventhImg1 from "./assets/images/seventh-img.svg";
+import seventhImg2 from "./assets/images/seventh-img1.svg";
+import seventhImg3 from "./assets/images/seventh-img1.png";
+import seventhImg4 from "./assets/images/seventh-img2.png";
+import seventhImg5 from "./assets/images/seventh-img3.png";
+import seventhImg6 from "./assets/images/seventh-img4.png";
+import seventhImg7 from "./assets/images/seventh-img5.png";
+import seventhImg8 from "./assets/images/seventh-img6.png";
+import seventhImg9 from "./assets/images/seventh-img7.png";
 function App() {
   return (
     <div className="App">
@@ -664,6 +673,59 @@ function App() {
           </div>
         </div>
       </section>
+      <section className="section-seventh">
+        <h2 className="seventh-title">what happened</h2>
+        <p className="seventh-text">
+          How to create mobile-optimized videos in minutes. Not a designer,
+          every team makes a lot of videos Can be trimmed. Take the first{" "}
+        </p>
+        <button className="seventh-button">SEE MORE</button>
+        <img className="seventhImg1" src={seventhImg1} alt="seventhImg1"></img>
+        <img className="seventhImg2" src={seventhImg2} alt="seventhImg2"></img>
+        <img className="seventhImg3" src={seventhImg3} alt="seventhImg3"></img>
+        <img className="seventhImg4" src={seventhImg4} alt="seventhImg4"></img>
+        <img className="seventhImg5" src={seventhImg5} alt="seventhImg5"></img>
+        <img className="seventhImg6" src={seventhImg6} alt="seventhImg6"></img>
+        <img className="seventhImg7" src={seventhImg7} alt="seventhImg7"></img>
+        <img className="seventhImg8" src={seventhImg8} alt="seventhImg8"></img>
+        <img className="seventhImg9" src={seventhImg9} alt="seventhImg9"></img>
+      </section>
+      <footer className="footer">
+        <div className="footer-info-wrap">
+          <h3 className="footer-info-title">what happened</h3>
+          <p className="footer-info-text">
+            [공지] 개인 정보 처리 방침 변경 사전 안내 [공지] 29CM 강남 스토어
+            영업 종료 [공지] 개인 정보 처리 방침 변경 사전 안내 [공지] iOS 10
+            이하 버전 지원 중단 안내 [공지] 개인 정보 처리 방침 변경 사전 안내
+          </p>
+        </div>
+        <div className="footer-more-wrap">
+          <div className="footer-more-item">
+            <h3 className="more-item-title">about us</h3>
+            <p className="more-item-text">회사 소개 인재 채용 상시 할인 혜택</p>
+          </div>
+          <div className="footer-more-item">
+            <h3 className="more-item-title">my order</h3>
+            <p className="more-item-text">
+              내 주문 주문 배송 취소 / 교환 / 반품 내역 상품 리뷰 내역 증빙 서류
+              발급
+            </p>
+          </div>
+          <div className="footer-more-item">
+            <h3 className="more-item-title">my account</h3>
+            <p className="more-item-text">
+              회원 정보 수정 회원 등급 마일리지 현황 쿠폰
+            </p>
+          </div>
+          <div className="footer-more-item">
+            <h3 className="more-item-title">help</h3>
+            <p className="more-item-text">
+              1 : 1 상담 내역 상품 Q & A 내역 공지 사항 자주하는 질문 고객의
+              소리
+            </p>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }

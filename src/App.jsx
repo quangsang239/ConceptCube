@@ -29,10 +29,10 @@ function App() {
       <header className="header">
         <h2 className="header-title">What happened</h2>
         <div className="wrap-header">
-          <span className="content-title">Introduction</span>
-          <span className="content-title">solution</span>
-          <span className="content-title">Rate plan</span>
-          <span className="content-title">|</span>
+          <span className="content-title text-1">Introduction</span>
+          <span className="content-title text-1">solution</span>
+          <span className="content-title text-1">Rate plan</span>
+          <span className="content-title text-1">|</span>
           <span className="content-title">login</span>
           <span className="content-title">Apply for free use</span>
         </div>
